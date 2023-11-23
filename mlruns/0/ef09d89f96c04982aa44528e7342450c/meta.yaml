@@ -1,0 +1,15 @@
+artifact_uri: file:///home/indigon/projects/Project-Build-an-ML-Pipeline-Starter/mlruns/0/ef09d89f96c04982aa44528e7342450c/artifacts
+end_time: 1700766651603
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: ef09d89f96c04982aa44528e7342450c
+run_name: unequaled-cat-666
+run_uuid: ef09d89f96c04982aa44528e7342450c
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1700766451584
+status: 3
+tags: []
+user_id: indigon
