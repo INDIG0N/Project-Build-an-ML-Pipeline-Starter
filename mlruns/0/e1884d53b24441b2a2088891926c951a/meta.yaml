@@ -1,0 +1,15 @@
+artifact_uri: file:///home/indigon/projects/Project-Build-an-ML-Pipeline-Starter/mlruns/0/e1884d53b24441b2a2088891926c951a/artifacts
+end_time: 1700978751167
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: e1884d53b24441b2a2088891926c951a
+run_name: honorable-fly-635
+run_uuid: e1884d53b24441b2a2088891926c951a
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1700978738441
+status: 4
+tags: []
+user_id: indigon

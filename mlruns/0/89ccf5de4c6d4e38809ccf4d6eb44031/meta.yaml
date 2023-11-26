@@ -1,0 +1,15 @@
+artifact_uri: file:///home/indigon/projects/Project-Build-an-ML-Pipeline-Starter/mlruns/0/89ccf5de4c6d4e38809ccf4d6eb44031/artifacts
+end_time: 1700978738427
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: 89ccf5de4c6d4e38809ccf4d6eb44031
+run_name: abundant-grub-226
+run_uuid: 89ccf5de4c6d4e38809ccf4d6eb44031
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1700978720607
+status: 3
+tags: []
+user_id: indigon
