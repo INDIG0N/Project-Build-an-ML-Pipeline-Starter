@@ -1,0 +1,15 @@
+artifact_uri: file:///home/indigon/projects/Project-Build-an-ML-Pipeline-Starter/mlruns/0/62d5f35e53154be8800cc7970ffa94a3/artifacts
+end_time: 1700979453554
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: 62d5f35e53154be8800cc7970ffa94a3
+run_name: persistent-stag-850
+run_uuid: 62d5f35e53154be8800cc7970ffa94a3
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1700979166388
+status: 3
+tags: []
+user_id: indigon

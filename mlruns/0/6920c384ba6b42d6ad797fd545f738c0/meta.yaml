@@ -1,0 +1,15 @@
+artifact_uri: file:///home/indigon/projects/Project-Build-an-ML-Pipeline-Starter/mlruns/0/6920c384ba6b42d6ad797fd545f738c0/artifacts
+end_time: 1700979453308
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: 6920c384ba6b42d6ad797fd545f738c0
+run_name: monumental-calf-121
+run_uuid: 6920c384ba6b42d6ad797fd545f738c0
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1700979238054
+status: 3
+tags: []
+user_id: indigon

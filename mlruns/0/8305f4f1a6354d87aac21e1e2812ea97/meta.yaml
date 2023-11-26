@@ -1,0 +1,15 @@
+artifact_uri: file:///home/indigon/projects/Project-Build-an-ML-Pipeline-Starter/mlruns/0/8305f4f1a6354d87aac21e1e2812ea97/artifacts
+end_time: 1700979238031
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: 8305f4f1a6354d87aac21e1e2812ea97
+run_name: delightful-skink-791
+run_uuid: 8305f4f1a6354d87aac21e1e2812ea97
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1700979215935
+status: 3
+tags: []
+user_id: indigon

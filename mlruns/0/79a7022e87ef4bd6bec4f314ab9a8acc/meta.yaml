@@ -1,0 +1,15 @@
+artifact_uri: file:///home/indigon/projects/Project-Build-an-ML-Pipeline-Starter/mlruns/0/79a7022e87ef4bd6bec4f314ab9a8acc/artifacts
+end_time: 1700979183134
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: 79a7022e87ef4bd6bec4f314ab9a8acc
+run_name: casual-goat-246
+run_uuid: 79a7022e87ef4bd6bec4f314ab9a8acc
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1700979171047
+status: 3
+tags: []
+user_id: indigon
