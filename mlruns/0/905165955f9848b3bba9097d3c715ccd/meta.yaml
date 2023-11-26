@@ -1,0 +1,15 @@
+artifact_uri: file:///home/indigon/projects/Project-Build-an-ML-Pipeline-Starter/mlruns/0/905165955f9848b3bba9097d3c715ccd/artifacts
+end_time: 1700798824437
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: 905165955f9848b3bba9097d3c715ccd
+run_name: agreeable-cub-536
+run_uuid: 905165955f9848b3bba9097d3c715ccd
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1700798658513
+status: 3
+tags: []
+user_id: indigon

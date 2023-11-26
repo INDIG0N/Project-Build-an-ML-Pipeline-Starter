@@ -1,0 +1,15 @@
+artifact_uri: file:///home/indigon/projects/Project-Build-an-ML-Pipeline-Starter/mlruns/0/cc14e69f41904b9ebfeda23f0499a951/artifacts
+end_time: 1700798824197
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: cc14e69f41904b9ebfeda23f0499a951
+run_name: shivering-swan-852
+run_uuid: cc14e69f41904b9ebfeda23f0499a951
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1700798663109
+status: 3
+tags: []
+user_id: indigon

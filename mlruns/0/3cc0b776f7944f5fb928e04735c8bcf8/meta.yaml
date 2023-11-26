@@ -1,0 +1,15 @@
+artifact_uri: file:///home/indigon/projects/Project-Build-an-ML-Pipeline-Starter/mlruns/0/3cc0b776f7944f5fb928e04735c8bcf8/artifacts
+end_time: 1700963349455
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: 3cc0b776f7944f5fb928e04735c8bcf8
+run_name: beautiful-wasp-606
+run_uuid: 3cc0b776f7944f5fb928e04735c8bcf8
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1700962793425
+status: 3
+tags: []
+user_id: indigon

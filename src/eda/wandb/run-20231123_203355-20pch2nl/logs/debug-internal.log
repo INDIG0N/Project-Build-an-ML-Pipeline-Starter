@@ -1,0 +1,273 @@
+2023-11-23 20:33:55,417 INFO    StreamThr :5778 [internal.py:wandb_internal():87] W&B internal server running at pid: 5778, started at: 2023-11-23 20:33:55.417303
+2023-11-23 20:33:55,421 DEBUG   HandlerThread:5778 [handler.py:handle_request():144] handle_request: status
+2023-11-23 20:33:55,424 INFO    WriterThread:5778 [datastore.py:open_for_write():85] open: /home/indigon/projects/Project-Build-an-ML-Pipeline-Starter/src/eda/wandb/run-20231123_203355-20pch2nl/run-20pch2nl.wandb
+2023-11-23 20:33:55,425 DEBUG   SenderThread:5778 [sender.py:send():334] send: header
+2023-11-23 20:33:55,456 DEBUG   SenderThread:5778 [sender.py:send():334] send: run
+2023-11-23 20:33:55,905 INFO    SenderThread:5778 [dir_watcher.py:__init__():216] watching files in: /home/indigon/projects/Project-Build-an-ML-Pipeline-Starter/src/eda/wandb/run-20231123_203355-20pch2nl/files
+2023-11-23 20:33:55,905 INFO    SenderThread:5778 [sender.py:_start_run_threads():1065] run started: 20pch2nl with start time 1700789635.415847
+2023-11-23 20:33:55,906 DEBUG   SenderThread:5778 [sender.py:send_request():361] send_request: summary_record
+2023-11-23 20:33:55,906 INFO    SenderThread:5778 [sender.py:_save_file():1319] saving file wandb-summary.json with policy end
+2023-11-23 20:33:55,906 DEBUG   HandlerThread:5778 [handler.py:handle_request():144] handle_request: check_version
+2023-11-23 20:33:55,907 DEBUG   SenderThread:5778 [sender.py:send_request():361] send_request: check_version
+2023-11-23 20:33:56,061 DEBUG   HandlerThread:5778 [handler.py:handle_request():144] handle_request: run_start
+2023-11-23 20:33:56,063 DEBUG   HandlerThread:5778 [system_info.py:__init__():31] System info init
+2023-11-23 20:33:56,063 DEBUG   HandlerThread:5778 [system_info.py:__init__():46] System info init done
+2023-11-23 20:33:56,063 INFO    HandlerThread:5778 [system_monitor.py:start():151] Starting system monitor
+2023-11-23 20:33:56,063 INFO    SystemMonitor:5778 [system_monitor.py:_start():116] Starting system asset monitoring threads
+2023-11-23 20:33:56,064 INFO    HandlerThread:5778 [system_monitor.py:probe():172] Collecting system info
+2023-11-23 20:33:56,064 INFO    SystemMonitor:5778 [interfaces.py:start():168] Started cpu
+2023-11-23 20:33:56,065 INFO    SystemMonitor:5778 [interfaces.py:start():168] Started disk
+2023-11-23 20:33:56,065 INFO    SystemMonitor:5778 [interfaces.py:start():168] Started memory
+2023-11-23 20:33:56,067 INFO    SystemMonitor:5778 [interfaces.py:start():168] Started network
+2023-11-23 20:33:56,073 DEBUG   HandlerThread:5778 [system_info.py:probe():195] Probing system
+2023-11-23 20:33:56,095 DEBUG   HandlerThread:5778 [system_info.py:_probe_git():180] Probing git
+2023-11-23 20:33:56,106 DEBUG   HandlerThread:5778 [system_info.py:_probe_git():188] Probing git done
+2023-11-23 20:33:56,106 DEBUG   HandlerThread:5778 [system_info.py:probe():241] Probing system done
+2023-11-23 20:33:56,106 DEBUG   HandlerThread:5778 [system_monitor.py:probe():181] {'os': 'Linux-5.15.133.1-microsoft-standard-WSL2-x86_64-with-glibc2.35', 'python': '3.9.15', 'heartbeatAt': '2023-11-24T01:33:56.073699', 'startedAt': '2023-11-24T01:33:55.406301', 'docker': None, 'cuda': None, 'args': None, 'state': 'running', 'program': 'eda.ipynb', 'root': '/home/indigon/projects/Project-Build-an-ML-Pipeline-Starter', 'git': {'remote': 'https://github.com/INDIG0N/Project-Build-an-ML-Pipeline-Starter.git', 'commit': 'de35e093556231566852c2be0d98990e7ef7a163'}, 'email': 'hicksjordan1999@gmail.com', 'host': 'DESKTOP-N061D2H', 'username': 'indigon', 'executable': '/home/indigon/miniconda3/envs/nyc_airbnb_dev/bin/python', 'cpu_count': 8, 'cpu_count_logical': 16, 'cpu_freq': {'current': 3393.679000000001, 'min': 0.0, 'max': 0.0}, 'cpu_freq_per_core': [{'current': 3393.679, 'min': 0.0, 'max': 0.0}, {'current': 3393.679, 'min': 0.0, 'max': 0.0}, {'current': 3393.679, 'min': 0.0, 'max': 0.0}, {'current': 3393.679, 'min': 0.0, 'max': 0.0}, {'current': 3393.679, 'min': 0.0, 'max': 0.0}, {'current': 3393.679, 'min': 0.0, 'max': 0.0}, {'current': 3393.679, 'min': 0.0, 'max': 0.0}, {'current': 3393.679, 'min': 0.0, 'max': 0.0}, {'current': 3393.679, 'min': 0.0, 'max': 0.0}, {'current': 3393.679, 'min': 0.0, 'max': 0.0}, {'current': 3393.679, 'min': 0.0, 'max': 0.0}, {'current': 3393.679, 'min': 0.0, 'max': 0.0}, {'current': 3393.679, 'min': 0.0, 'max': 0.0}, {'current': 3393.679, 'min': 0.0, 'max': 0.0}, {'current': 3393.679, 'min': 0.0, 'max': 0.0}, {'current': 3393.679, 'min': 0.0, 'max': 0.0}], 'disk': {'total': 1006.853931427002, 'used': 12.251533508300781}, 'memory': {'total': 7.722969055175781}}
+2023-11-23 20:33:56,106 INFO    HandlerThread:5778 [system_monitor.py:probe():182] Finished collecting system info
+2023-11-23 20:33:56,106 INFO    HandlerThread:5778 [system_monitor.py:probe():185] Publishing system info
+2023-11-23 20:33:56,107 DEBUG   HandlerThread:5778 [system_info.py:_save_pip():51] Saving list of pip packages installed into the current environment
+2023-11-23 20:33:56,107 DEBUG   HandlerThread:5778 [system_info.py:_save_pip():67] Saving pip packages done
+2023-11-23 20:33:56,107 DEBUG   HandlerThread:5778 [system_info.py:_save_conda():74] Saving list of conda packages installed into the current environment
+2023-11-23 20:33:56,907 INFO    Thread-13 :5778 [dir_watcher.py:_on_file_created():275] file/dir created: /home/indigon/projects/Project-Build-an-ML-Pipeline-Starter/src/eda/wandb/run-20231123_203355-20pch2nl/files/conda-environment.yaml
+2023-11-23 20:33:56,908 INFO    Thread-13 :5778 [dir_watcher.py:_on_file_created():275] file/dir created: /home/indigon/projects/Project-Build-an-ML-Pipeline-Starter/src/eda/wandb/run-20231123_203355-20pch2nl/files/wandb-summary.json
+2023-11-23 20:33:56,908 INFO    Thread-13 :5778 [dir_watcher.py:_on_file_created():275] file/dir created: /home/indigon/projects/Project-Build-an-ML-Pipeline-Starter/src/eda/wandb/run-20231123_203355-20pch2nl/files/requirements.txt
+2023-11-23 20:34:00,180 DEBUG   HandlerThread:5778 [system_info.py:_save_conda():86] Saving conda packages done
+2023-11-23 20:34:00,180 DEBUG   HandlerThread:5778 [system_info.py:_save_code():89] Saving code
+2023-11-23 20:34:00,180 WARNING HandlerThread:5778 [system_info.py:_save_code():91] unable to save code -- program entry not found
+2023-11-23 20:34:00,180 DEBUG   HandlerThread:5778 [system_info.py:_save_patches():127] Saving git patches
+2023-11-23 20:34:00,203 DEBUG   HandlerThread:5778 [system_info.py:_save_patches():169] Saving git patches done
+2023-11-23 20:34:00,204 INFO    HandlerThread:5778 [system_monitor.py:probe():187] Finished publishing system info
+2023-11-23 20:34:00,207 DEBUG   SenderThread:5778 [sender.py:send():334] send: files
+2023-11-23 20:34:00,207 INFO    SenderThread:5778 [sender.py:_save_file():1319] saving file wandb-metadata.json with policy now
+2023-11-23 20:34:00,230 DEBUG   SenderThread:5778 [sender.py:send():334] send: telemetry
+2023-11-23 20:34:00,231 DEBUG   HandlerThread:5778 [handler.py:handle_request():144] handle_request: stop_status
+2023-11-23 20:34:00,232 DEBUG   SenderThread:5778 [sender.py:send_request():361] send_request: stop_status
+2023-11-23 20:34:00,480 DEBUG   HandlerThread:5778 [handler.py:handle_request():144] handle_request: status_report
+2023-11-23 20:34:00,664 INFO    Thread-16 :5778 [upload_job.py:push():143] Uploaded file /tmp/tmprz7n1qmmwandb/wjic1t8c-wandb-metadata.json
+2023-11-23 20:34:00,728 DEBUG   SenderThread:5778 [sender.py:send():334] send: use_artifact
+2023-11-23 20:34:00,910 INFO    Thread-13 :5778 [dir_watcher.py:_on_file_modified():292] file/dir modified: /home/indigon/projects/Project-Build-an-ML-Pipeline-Starter/src/eda/wandb/run-20231123_203355-20pch2nl/files/conda-environment.yaml
+2023-11-23 20:34:00,910 INFO    Thread-13 :5778 [dir_watcher.py:_on_file_created():275] file/dir created: /home/indigon/projects/Project-Build-an-ML-Pipeline-Starter/src/eda/wandb/run-20231123_203355-20pch2nl/files/wandb-metadata.json
+2023-11-23 20:34:01,911 INFO    Thread-13 :5778 [dir_watcher.py:_on_file_created():275] file/dir created: /home/indigon/projects/Project-Build-an-ML-Pipeline-Starter/src/eda/wandb/run-20231123_203355-20pch2nl/files/output.log
+2023-11-23 20:34:03,911 INFO    Thread-13 :5778 [dir_watcher.py:_on_file_modified():292] file/dir modified: /home/indigon/projects/Project-Build-an-ML-Pipeline-Starter/src/eda/wandb/run-20231123_203355-20pch2nl/files/output.log
+2023-11-23 20:34:06,242 DEBUG   HandlerThread:5778 [handler.py:handle_request():144] handle_request: status_report
+2023-11-23 20:34:11,244 DEBUG   HandlerThread:5778 [handler.py:handle_request():144] handle_request: status_report
+2023-11-23 20:34:15,228 DEBUG   HandlerThread:5778 [handler.py:handle_request():144] handle_request: keepalive
+2023-11-23 20:34:15,228 DEBUG   HandlerThread:5778 [handler.py:handle_request():144] handle_request: keepalive
+2023-11-23 20:34:16,245 DEBUG   HandlerThread:5778 [handler.py:handle_request():144] handle_request: status_report
+2023-11-23 20:34:20,229 DEBUG   HandlerThread:5778 [handler.py:handle_request():144] handle_request: keepalive
+2023-11-23 20:34:21,246 DEBUG   HandlerThread:5778 [handler.py:handle_request():144] handle_request: status_report
+2023-11-23 20:34:25,231 DEBUG   HandlerThread:5778 [handler.py:handle_request():144] handle_request: keepalive
+2023-11-23 20:34:26,252 DEBUG   HandlerThread:5778 [handler.py:handle_request():144] handle_request: status_report
+2023-11-23 20:34:26,920 INFO    Thread-13 :5778 [dir_watcher.py:_on_file_modified():292] file/dir modified: /home/indigon/projects/Project-Build-an-ML-Pipeline-Starter/src/eda/wandb/run-20231123_203355-20pch2nl/files/config.yaml
+2023-11-23 20:34:30,232 DEBUG   HandlerThread:5778 [handler.py:handle_request():144] handle_request: keepalive
+2023-11-23 20:34:31,514 DEBUG   HandlerThread:5778 [handler.py:handle_request():144] handle_request: status_report
+2023-11-23 20:34:35,233 DEBUG   HandlerThread:5778 [handler.py:handle_request():144] handle_request: keepalive
+2023-11-23 20:34:36,515 DEBUG   HandlerThread:5778 [handler.py:handle_request():144] handle_request: status_report
+2023-11-23 20:34:40,234 DEBUG   HandlerThread:5778 [handler.py:handle_request():144] handle_request: keepalive
+2023-11-23 20:34:41,516 DEBUG   HandlerThread:5778 [handler.py:handle_request():144] handle_request: status_report
+2023-11-23 20:34:45,235 DEBUG   HandlerThread:5778 [handler.py:handle_request():144] handle_request: keepalive
+2023-11-23 20:34:46,517 DEBUG   HandlerThread:5778 [handler.py:handle_request():144] handle_request: status_report
+2023-11-23 20:34:50,237 DEBUG   HandlerThread:5778 [handler.py:handle_request():144] handle_request: keepalive
+2023-11-23 20:34:51,518 DEBUG   HandlerThread:5778 [handler.py:handle_request():144] handle_request: status_report
+2023-11-23 20:34:55,238 DEBUG   HandlerThread:5778 [handler.py:handle_request():144] handle_request: keepalive
+2023-11-23 20:34:56,067 DEBUG   SystemMonitor:5778 [system_monitor.py:_start():130] Starting system metrics aggregation loop
+2023-11-23 20:34:56,068 DEBUG   SenderThread:5778 [sender.py:send():334] send: stats
+2023-11-23 20:34:57,069 DEBUG   HandlerThread:5778 [handler.py:handle_request():144] handle_request: status_report
+2023-11-23 20:35:00,239 DEBUG   HandlerThread:5778 [handler.py:handle_request():144] handle_request: keepalive
+2023-11-23 20:35:02,070 DEBUG   HandlerThread:5778 [handler.py:handle_request():144] handle_request: status_report
+2023-11-23 20:35:05,241 DEBUG   HandlerThread:5778 [handler.py:handle_request():144] handle_request: keepalive
+2023-11-23 20:35:07,071 DEBUG   HandlerThread:5778 [handler.py:handle_request():144] handle_request: status_report
+2023-11-23 20:35:10,242 DEBUG   HandlerThread:5778 [handler.py:handle_request():144] handle_request: keepalive
+2023-11-23 20:35:12,073 DEBUG   HandlerThread:5778 [handler.py:handle_request():144] handle_request: status_report
+2023-11-23 20:35:15,243 DEBUG   HandlerThread:5778 [handler.py:handle_request():144] handle_request: keepalive
+2023-11-23 20:35:17,074 DEBUG   HandlerThread:5778 [handler.py:handle_request():144] handle_request: status_report
+2023-11-23 20:35:20,244 DEBUG   HandlerThread:5778 [handler.py:handle_request():144] handle_request: keepalive
+2023-11-23 20:35:22,075 DEBUG   HandlerThread:5778 [handler.py:handle_request():144] handle_request: status_report
+2023-11-23 20:35:25,245 DEBUG   HandlerThread:5778 [handler.py:handle_request():144] handle_request: keepalive
+2023-11-23 20:35:26,069 DEBUG   SenderThread:5778 [sender.py:send():334] send: stats
+2023-11-23 20:35:28,070 DEBUG   HandlerThread:5778 [handler.py:handle_request():144] handle_request: status_report
+2023-11-23 20:35:30,247 DEBUG   HandlerThread:5778 [handler.py:handle_request():144] handle_request: keepalive
+2023-11-23 20:35:33,071 DEBUG   HandlerThread:5778 [handler.py:handle_request():144] handle_request: status_report
+2023-11-23 20:35:35,248 DEBUG   HandlerThread:5778 [handler.py:handle_request():144] handle_request: keepalive
+2023-11-23 20:35:38,072 DEBUG   HandlerThread:5778 [handler.py:handle_request():144] handle_request: status_report
+2023-11-23 20:35:40,249 DEBUG   HandlerThread:5778 [handler.py:handle_request():144] handle_request: keepalive
+2023-11-23 20:35:43,073 DEBUG   HandlerThread:5778 [handler.py:handle_request():144] handle_request: status_report
+2023-11-23 20:35:45,250 DEBUG   HandlerThread:5778 [handler.py:handle_request():144] handle_request: keepalive
+2023-11-23 20:35:48,075 DEBUG   HandlerThread:5778 [handler.py:handle_request():144] handle_request: status_report
+2023-11-23 20:35:50,252 DEBUG   HandlerThread:5778 [handler.py:handle_request():144] handle_request: keepalive
+2023-11-23 20:35:53,076 DEBUG   HandlerThread:5778 [handler.py:handle_request():144] handle_request: status_report
+2023-11-23 20:35:55,253 DEBUG   HandlerThread:5778 [handler.py:handle_request():144] handle_request: keepalive
+2023-11-23 20:35:56,070 DEBUG   SenderThread:5778 [sender.py:send():334] send: stats
+2023-11-23 20:35:59,070 DEBUG   HandlerThread:5778 [handler.py:handle_request():144] handle_request: status_report
+2023-11-23 20:36:00,254 DEBUG   HandlerThread:5778 [handler.py:handle_request():144] handle_request: keepalive
+2023-11-23 20:36:04,072 DEBUG   HandlerThread:5778 [handler.py:handle_request():144] handle_request: status_report
+2023-11-23 20:36:05,255 DEBUG   HandlerThread:5778 [handler.py:handle_request():144] handle_request: keepalive
+2023-11-23 20:36:09,073 DEBUG   HandlerThread:5778 [handler.py:handle_request():144] handle_request: status_report
+2023-11-23 20:36:10,256 DEBUG   HandlerThread:5778 [handler.py:handle_request():144] handle_request: keepalive
+2023-11-23 20:36:14,075 DEBUG   HandlerThread:5778 [handler.py:handle_request():144] handle_request: status_report
+2023-11-23 20:36:15,257 DEBUG   HandlerThread:5778 [handler.py:handle_request():144] handle_request: keepalive
+2023-11-23 20:36:19,076 DEBUG   HandlerThread:5778 [handler.py:handle_request():144] handle_request: status_report
+2023-11-23 20:36:20,259 DEBUG   HandlerThread:5778 [handler.py:handle_request():144] handle_request: keepalive
+2023-11-23 20:36:24,077 DEBUG   HandlerThread:5778 [handler.py:handle_request():144] handle_request: status_report
+2023-11-23 20:36:25,260 DEBUG   HandlerThread:5778 [handler.py:handle_request():144] handle_request: keepalive
+2023-11-23 20:36:26,070 DEBUG   SenderThread:5778 [sender.py:send():334] send: stats
+2023-11-23 20:36:30,071 DEBUG   HandlerThread:5778 [handler.py:handle_request():144] handle_request: status_report
+2023-11-23 20:36:30,261 DEBUG   HandlerThread:5778 [handler.py:handle_request():144] handle_request: keepalive
+2023-11-23 20:36:35,073 DEBUG   HandlerThread:5778 [handler.py:handle_request():144] handle_request: status_report
+2023-11-23 20:36:35,262 DEBUG   HandlerThread:5778 [handler.py:handle_request():144] handle_request: keepalive
+2023-11-23 20:36:40,074 DEBUG   HandlerThread:5778 [handler.py:handle_request():144] handle_request: status_report
+2023-11-23 20:36:40,263 DEBUG   HandlerThread:5778 [handler.py:handle_request():144] handle_request: keepalive
+2023-11-23 20:36:45,075 DEBUG   HandlerThread:5778 [handler.py:handle_request():144] handle_request: status_report
+2023-11-23 20:36:45,265 DEBUG   HandlerThread:5778 [handler.py:handle_request():144] handle_request: keepalive
+2023-11-23 20:36:50,076 DEBUG   HandlerThread:5778 [handler.py:handle_request():144] handle_request: status_report
+2023-11-23 20:36:50,266 DEBUG   HandlerThread:5778 [handler.py:handle_request():144] handle_request: keepalive
+2023-11-23 20:36:55,077 DEBUG   HandlerThread:5778 [handler.py:handle_request():144] handle_request: status_report
+2023-11-23 20:36:55,267 DEBUG   HandlerThread:5778 [handler.py:handle_request():144] handle_request: keepalive
+2023-11-23 20:36:56,071 DEBUG   SenderThread:5778 [sender.py:send():334] send: stats
+2023-11-23 20:37:00,268 DEBUG   HandlerThread:5778 [handler.py:handle_request():144] handle_request: keepalive
+2023-11-23 20:37:01,072 DEBUG   HandlerThread:5778 [handler.py:handle_request():144] handle_request: status_report
+2023-11-23 20:37:05,269 DEBUG   HandlerThread:5778 [handler.py:handle_request():144] handle_request: keepalive
+2023-11-23 20:37:06,073 DEBUG   HandlerThread:5778 [handler.py:handle_request():144] handle_request: status_report
+2023-11-23 20:37:10,271 DEBUG   HandlerThread:5778 [handler.py:handle_request():144] handle_request: keepalive
+2023-11-23 20:37:11,075 DEBUG   HandlerThread:5778 [handler.py:handle_request():144] handle_request: status_report
+2023-11-23 20:37:15,272 DEBUG   HandlerThread:5778 [handler.py:handle_request():144] handle_request: keepalive
+2023-11-23 20:37:16,076 DEBUG   HandlerThread:5778 [handler.py:handle_request():144] handle_request: status_report
+2023-11-23 20:37:20,273 DEBUG   HandlerThread:5778 [handler.py:handle_request():144] handle_request: keepalive
+2023-11-23 20:37:21,077 DEBUG   HandlerThread:5778 [handler.py:handle_request():144] handle_request: status_report
+2023-11-23 20:37:23,258 DEBUG   SenderThread:5778 [sender.py:send():334] send: telemetry
+2023-11-23 20:37:23,300 DEBUG   SenderThread:5778 [sender.py:send():334] send: config
+2023-11-23 20:37:23,670 DEBUG   HandlerThread:5778 [handler.py:handle_request():144] handle_request: log_artifact
+2023-11-23 20:37:23,671 DEBUG   SenderThread:5778 [sender.py:send_request():361] send_request: log_artifact
+2023-11-23 20:37:23,984 INFO    Thread-13 :5778 [dir_watcher.py:_on_file_created():275] file/dir created: /home/indigon/projects/Project-Build-an-ML-Pipeline-Starter/src/eda/wandb/run-20231123_203355-20pch2nl/files/code/_session_history.ipynb
+2023-11-23 20:37:23,985 INFO    Thread-13 :5778 [dir_watcher.py:_on_file_created():275] file/dir created: /home/indigon/projects/Project-Build-an-ML-Pipeline-Starter/src/eda/wandb/run-20231123_203355-20pch2nl/files/code
+2023-11-23 20:37:24,677 DEBUG   HandlerThread:5778 [handler.py:handle_request():144] handle_request: poll_exit
+2023-11-23 20:37:24,936 INFO    Thread-18 :5778 [upload_job.py:push():101] Uploaded file /home/indigon/.local/share/wandb/artifacts/staging/tmph0ju29i5
+2023-11-23 20:37:25,009 INFO    Thread-19 :5778 [upload_job.py:push():101] Uploaded file /home/indigon/.local/share/wandb/artifacts/staging/tmpnstj1688
+2023-11-23 20:37:25,812 INFO    SenderThread:5778 [sender.py:send_request_log_artifact():1379] logged artifact source-nyc_airbnb-None - {'id': 'QXJ0aWZhY3Q6NjQ3NDI3Nzcy', 'digest': '645fcf97aea59d82b1b0c2abf1727ae1', 'state': 'PENDING', 'aliases': [], 'artifactSequence': {'id': 'QXJ0aWZhY3RDb2xsZWN0aW9uOjExODMwNTk2NQ==', 'latestArtifact': None}, 'version': 'latest'}
+2023-11-23 20:37:25,812 DEBUG   SenderThread:5778 [sender.py:send():334] send: exit
+2023-11-23 20:37:25,812 INFO    SenderThread:5778 [sender.py:send_exit():557] handling exit code: 0
+2023-11-23 20:37:25,812 INFO    SenderThread:5778 [sender.py:send_exit():559] handling runtime: 207
+2023-11-23 20:37:25,813 INFO    SenderThread:5778 [sender.py:_save_file():1319] saving file wandb-summary.json with policy end
+2023-11-23 20:37:25,813 INFO    SenderThread:5778 [sender.py:send_exit():565] send defer
+2023-11-23 20:37:25,813 DEBUG   SenderThread:5778 [sender.py:send_request():361] send_request: poll_exit
+2023-11-23 20:37:25,814 DEBUG   HandlerThread:5778 [handler.py:handle_request():144] handle_request: defer
+2023-11-23 20:37:25,814 INFO    HandlerThread:5778 [handler.py:handle_request_defer():170] handle defer: 0
+2023-11-23 20:37:25,815 DEBUG   SenderThread:5778 [sender.py:send_request():361] send_request: defer
+2023-11-23 20:37:25,815 INFO    SenderThread:5778 [sender.py:send_request_defer():581] handle sender defer: 0
+2023-11-23 20:37:25,815 INFO    SenderThread:5778 [sender.py:transition_state():585] send defer: 1
+2023-11-23 20:37:25,815 DEBUG   HandlerThread:5778 [handler.py:handle_request():144] handle_request: defer
+2023-11-23 20:37:25,815 INFO    HandlerThread:5778 [handler.py:handle_request_defer():170] handle defer: 1
+2023-11-23 20:37:25,815 DEBUG   SenderThread:5778 [sender.py:send_request():361] send_request: defer
+2023-11-23 20:37:25,815 INFO    SenderThread:5778 [sender.py:send_request_defer():581] handle sender defer: 1
+2023-11-23 20:37:25,815 INFO    SenderThread:5778 [sender.py:transition_state():585] send defer: 2
+2023-11-23 20:37:25,815 DEBUG   HandlerThread:5778 [handler.py:handle_request():144] handle_request: defer
+2023-11-23 20:37:25,815 INFO    HandlerThread:5778 [handler.py:handle_request_defer():170] handle defer: 2
+2023-11-23 20:37:25,815 INFO    HandlerThread:5778 [system_monitor.py:finish():161] Stopping system monitor
+2023-11-23 20:37:25,817 DEBUG   SystemMonitor:5778 [system_monitor.py:_start():137] Finished system metrics aggregation loop
+2023-11-23 20:37:25,817 DEBUG   SystemMonitor:5778 [system_monitor.py:_start():141] Publishing last batch of metrics
+2023-11-23 20:37:25,818 INFO    HandlerThread:5778 [interfaces.py:finish():175] Joined cpu
+2023-11-23 20:37:25,818 INFO    HandlerThread:5778 [interfaces.py:finish():175] Joined disk
+2023-11-23 20:37:25,818 INFO    HandlerThread:5778 [interfaces.py:finish():175] Joined memory
+2023-11-23 20:37:25,818 INFO    HandlerThread:5778 [interfaces.py:finish():175] Joined network
+2023-11-23 20:37:25,819 DEBUG   SenderThread:5778 [sender.py:send_request():361] send_request: defer
+2023-11-23 20:37:25,819 INFO    SenderThread:5778 [sender.py:send_request_defer():581] handle sender defer: 2
+2023-11-23 20:37:25,819 INFO    SenderThread:5778 [sender.py:transition_state():585] send defer: 3
+2023-11-23 20:37:25,819 DEBUG   SenderThread:5778 [sender.py:send():334] send: stats
+2023-11-23 20:37:25,819 DEBUG   HandlerThread:5778 [handler.py:handle_request():144] handle_request: defer
+2023-11-23 20:37:25,819 INFO    HandlerThread:5778 [handler.py:handle_request_defer():170] handle defer: 3
+2023-11-23 20:37:25,820 DEBUG   SenderThread:5778 [sender.py:send_request():361] send_request: defer
+2023-11-23 20:37:25,820 INFO    SenderThread:5778 [sender.py:send_request_defer():581] handle sender defer: 3
+2023-11-23 20:37:25,820 INFO    SenderThread:5778 [sender.py:transition_state():585] send defer: 4
+2023-11-23 20:37:25,820 DEBUG   HandlerThread:5778 [handler.py:handle_request():144] handle_request: defer
+2023-11-23 20:37:25,820 INFO    HandlerThread:5778 [handler.py:handle_request_defer():170] handle defer: 4
+2023-11-23 20:37:25,820 DEBUG   SenderThread:5778 [sender.py:send_request():361] send_request: defer
+2023-11-23 20:37:25,820 INFO    SenderThread:5778 [sender.py:send_request_defer():581] handle sender defer: 4
+2023-11-23 20:37:25,820 INFO    SenderThread:5778 [sender.py:transition_state():585] send defer: 5
+2023-11-23 20:37:25,821 DEBUG   HandlerThread:5778 [handler.py:handle_request():144] handle_request: defer
+2023-11-23 20:37:25,821 INFO    HandlerThread:5778 [handler.py:handle_request_defer():170] handle defer: 5
+2023-11-23 20:37:25,821 DEBUG   SenderThread:5778 [sender.py:send():334] send: summary
+2023-11-23 20:37:25,821 INFO    SenderThread:5778 [sender.py:_save_file():1319] saving file wandb-summary.json with policy end
+2023-11-23 20:37:25,822 DEBUG   SenderThread:5778 [sender.py:send_request():361] send_request: defer
+2023-11-23 20:37:25,822 INFO    SenderThread:5778 [sender.py:send_request_defer():581] handle sender defer: 5
+2023-11-23 20:37:25,822 INFO    SenderThread:5778 [sender.py:transition_state():585] send defer: 6
+2023-11-23 20:37:25,822 DEBUG   HandlerThread:5778 [handler.py:handle_request():144] handle_request: defer
+2023-11-23 20:37:25,822 INFO    HandlerThread:5778 [handler.py:handle_request_defer():170] handle defer: 6
+2023-11-23 20:37:25,822 DEBUG   SenderThread:5778 [sender.py:send_request():361] send_request: defer
+2023-11-23 20:37:25,822 INFO    SenderThread:5778 [sender.py:send_request_defer():581] handle sender defer: 6
+2023-11-23 20:37:25,827 DEBUG   HandlerThread:5778 [handler.py:handle_request():144] handle_request: status_report
+2023-11-23 20:37:25,988 INFO    Thread-13 :5778 [dir_watcher.py:_on_file_modified():292] file/dir modified: /home/indigon/projects/Project-Build-an-ML-Pipeline-Starter/src/eda/wandb/run-20231123_203355-20pch2nl/files/wandb-summary.json
+2023-11-23 20:37:25,989 INFO    Thread-13 :5778 [dir_watcher.py:_on_file_modified():292] file/dir modified: /home/indigon/projects/Project-Build-an-ML-Pipeline-Starter/src/eda/wandb/run-20231123_203355-20pch2nl/files/output.log
+2023-11-23 20:37:25,989 INFO    SenderThread:5778 [sender.py:transition_state():585] send defer: 7
+2023-11-23 20:37:25,989 DEBUG   HandlerThread:5778 [handler.py:handle_request():144] handle_request: defer
+2023-11-23 20:37:25,989 INFO    HandlerThread:5778 [handler.py:handle_request_defer():170] handle defer: 7
+2023-11-23 20:37:25,990 DEBUG   SenderThread:5778 [sender.py:send_request():361] send_request: defer
+2023-11-23 20:37:25,990 INFO    SenderThread:5778 [sender.py:send_request_defer():581] handle sender defer: 7
+2023-11-23 20:37:26,989 INFO    Thread-13 :5778 [dir_watcher.py:_on_file_modified():292] file/dir modified: /home/indigon/projects/Project-Build-an-ML-Pipeline-Starter/src/eda/wandb/run-20231123_203355-20pch2nl/files/config.yaml
+2023-11-23 20:37:27,488 INFO    SenderThread:5778 [sender.py:transition_state():585] send defer: 8
+2023-11-23 20:37:27,488 DEBUG   HandlerThread:5778 [handler.py:handle_request():144] handle_request: defer
+2023-11-23 20:37:27,488 INFO    HandlerThread:5778 [handler.py:handle_request_defer():170] handle defer: 8
+2023-11-23 20:37:27,488 DEBUG   SenderThread:5778 [sender.py:send_request():361] send_request: defer
+2023-11-23 20:37:27,489 INFO    SenderThread:5778 [sender.py:send_request_defer():581] handle sender defer: 8
+2023-11-23 20:37:27,489 INFO    SenderThread:5778 [sender.py:transition_state():585] send defer: 9
+2023-11-23 20:37:27,489 DEBUG   HandlerThread:5778 [handler.py:handle_request():144] handle_request: defer
+2023-11-23 20:37:27,489 INFO    HandlerThread:5778 [handler.py:handle_request_defer():170] handle defer: 9
+2023-11-23 20:37:27,489 DEBUG   SenderThread:5778 [sender.py:send_request():361] send_request: defer
+2023-11-23 20:37:27,489 INFO    SenderThread:5778 [sender.py:send_request_defer():581] handle sender defer: 9
+2023-11-23 20:37:27,489 INFO    SenderThread:5778 [dir_watcher.py:finish():362] shutting down directory watcher
+2023-11-23 20:37:27,989 INFO    Thread-13 :5778 [dir_watcher.py:_on_file_modified():292] file/dir modified: /home/indigon/projects/Project-Build-an-ML-Pipeline-Starter/src/eda/wandb/run-20231123_203355-20pch2nl/files/output.log
+2023-11-23 20:37:27,990 INFO    SenderThread:5778 [dir_watcher.py:finish():392] scan: /home/indigon/projects/Project-Build-an-ML-Pipeline-Starter/src/eda/wandb/run-20231123_203355-20pch2nl/files
+2023-11-23 20:37:27,990 INFO    SenderThread:5778 [dir_watcher.py:finish():406] scan save: /home/indigon/projects/Project-Build-an-ML-Pipeline-Starter/src/eda/wandb/run-20231123_203355-20pch2nl/files/config.yaml config.yaml
+2023-11-23 20:37:27,990 INFO    SenderThread:5778 [dir_watcher.py:finish():406] scan save: /home/indigon/projects/Project-Build-an-ML-Pipeline-Starter/src/eda/wandb/run-20231123_203355-20pch2nl/files/output.log output.log
+2023-11-23 20:37:27,990 INFO    SenderThread:5778 [dir_watcher.py:finish():406] scan save: /home/indigon/projects/Project-Build-an-ML-Pipeline-Starter/src/eda/wandb/run-20231123_203355-20pch2nl/files/wandb-metadata.json wandb-metadata.json
+2023-11-23 20:37:27,991 INFO    SenderThread:5778 [dir_watcher.py:finish():406] scan save: /home/indigon/projects/Project-Build-an-ML-Pipeline-Starter/src/eda/wandb/run-20231123_203355-20pch2nl/files/wandb-summary.json wandb-summary.json
+2023-11-23 20:37:27,991 INFO    SenderThread:5778 [dir_watcher.py:finish():406] scan save: /home/indigon/projects/Project-Build-an-ML-Pipeline-Starter/src/eda/wandb/run-20231123_203355-20pch2nl/files/conda-environment.yaml conda-environment.yaml
+2023-11-23 20:37:27,996 INFO    SenderThread:5778 [dir_watcher.py:finish():406] scan save: /home/indigon/projects/Project-Build-an-ML-Pipeline-Starter/src/eda/wandb/run-20231123_203355-20pch2nl/files/requirements.txt requirements.txt
+2023-11-23 20:37:28,008 INFO    SenderThread:5778 [dir_watcher.py:finish():406] scan save: /home/indigon/projects/Project-Build-an-ML-Pipeline-Starter/src/eda/wandb/run-20231123_203355-20pch2nl/files/code/_session_history.ipynb code/_session_history.ipynb
+2023-11-23 20:37:28,008 INFO    SenderThread:5778 [sender.py:transition_state():585] send defer: 10
+2023-11-23 20:37:28,008 DEBUG   HandlerThread:5778 [handler.py:handle_request():144] handle_request: defer
+2023-11-23 20:37:28,009 INFO    HandlerThread:5778 [handler.py:handle_request_defer():170] handle defer: 10
+2023-11-23 20:37:28,009 DEBUG   SenderThread:5778 [sender.py:send_request():361] send_request: defer
+2023-11-23 20:37:28,009 INFO    SenderThread:5778 [sender.py:send_request_defer():581] handle sender defer: 10
+2023-11-23 20:37:28,012 INFO    SenderThread:5778 [file_pusher.py:finish():160] shutting down file pusher
+2023-11-23 20:37:28,439 INFO    Thread-20 :5778 [upload_job.py:push():143] Uploaded file /home/indigon/projects/Project-Build-an-ML-Pipeline-Starter/src/eda/wandb/run-20231123_203355-20pch2nl/files/config.yaml
+2023-11-23 20:37:28,508 INFO    Thread-21 :5778 [upload_job.py:push():143] Uploaded file /home/indigon/projects/Project-Build-an-ML-Pipeline-Starter/src/eda/wandb/run-20231123_203355-20pch2nl/files/output.log
+2023-11-23 20:37:28,527 INFO    Thread-22 :5778 [upload_job.py:push():143] Uploaded file /home/indigon/projects/Project-Build-an-ML-Pipeline-Starter/src/eda/wandb/run-20231123_203355-20pch2nl/files/wandb-summary.json
+2023-11-23 20:37:28,529 INFO    Thread-25 :5778 [upload_job.py:push():143] Uploaded file /home/indigon/projects/Project-Build-an-ML-Pipeline-Starter/src/eda/wandb/run-20231123_203355-20pch2nl/files/code/_session_history.ipynb
+2023-11-23 20:37:28,533 INFO    Thread-24 :5778 [upload_job.py:push():143] Uploaded file /home/indigon/projects/Project-Build-an-ML-Pipeline-Starter/src/eda/wandb/run-20231123_203355-20pch2nl/files/requirements.txt
+2023-11-23 20:37:28,544 INFO    Thread-23 :5778 [upload_job.py:push():143] Uploaded file /home/indigon/projects/Project-Build-an-ML-Pipeline-Starter/src/eda/wandb/run-20231123_203355-20pch2nl/files/conda-environment.yaml
+2023-11-23 20:37:28,745 INFO    Thread-12 :5778 [sender.py:transition_state():585] send defer: 11
+2023-11-23 20:37:28,745 DEBUG   HandlerThread:5778 [handler.py:handle_request():144] handle_request: defer
+2023-11-23 20:37:28,745 INFO    HandlerThread:5778 [handler.py:handle_request_defer():170] handle defer: 11
+2023-11-23 20:37:28,746 DEBUG   SenderThread:5778 [sender.py:send_request():361] send_request: defer
+2023-11-23 20:37:28,746 INFO    SenderThread:5778 [sender.py:send_request_defer():581] handle sender defer: 11
+2023-11-23 20:37:28,746 INFO    SenderThread:5778 [file_pusher.py:join():165] waiting for file pusher
+2023-11-23 20:37:28,746 INFO    SenderThread:5778 [sender.py:transition_state():585] send defer: 12
+2023-11-23 20:37:28,746 DEBUG   HandlerThread:5778 [handler.py:handle_request():144] handle_request: defer
+2023-11-23 20:37:28,746 INFO    HandlerThread:5778 [handler.py:handle_request_defer():170] handle defer: 12
+2023-11-23 20:37:28,746 DEBUG   SenderThread:5778 [sender.py:send_request():361] send_request: defer
+2023-11-23 20:37:28,746 INFO    SenderThread:5778 [sender.py:send_request_defer():581] handle sender defer: 12
+2023-11-23 20:37:29,016 INFO    SenderThread:5778 [sender.py:transition_state():585] send defer: 13
+2023-11-23 20:37:29,016 DEBUG   HandlerThread:5778 [handler.py:handle_request():144] handle_request: defer
+2023-11-23 20:37:29,016 INFO    HandlerThread:5778 [handler.py:handle_request_defer():170] handle defer: 13
+2023-11-23 20:37:29,016 DEBUG   SenderThread:5778 [sender.py:send_request():361] send_request: defer
+2023-11-23 20:37:29,017 INFO    SenderThread:5778 [sender.py:send_request_defer():581] handle sender defer: 13
+2023-11-23 20:37:29,017 INFO    SenderThread:5778 [sender.py:transition_state():585] send defer: 14
+2023-11-23 20:37:29,017 DEBUG   HandlerThread:5778 [handler.py:handle_request():144] handle_request: defer
+2023-11-23 20:37:29,017 INFO    HandlerThread:5778 [handler.py:handle_request_defer():170] handle defer: 14
+2023-11-23 20:37:29,017 DEBUG   SenderThread:5778 [sender.py:send():334] send: final
+2023-11-23 20:37:29,017 DEBUG   SenderThread:5778 [sender.py:send():334] send: footer
+2023-11-23 20:37:29,018 DEBUG   SenderThread:5778 [sender.py:send_request():361] send_request: defer
+2023-11-23 20:37:29,018 INFO    SenderThread:5778 [sender.py:send_request_defer():581] handle sender defer: 14
+2023-11-23 20:37:29,019 DEBUG   HandlerThread:5778 [handler.py:handle_request():144] handle_request: poll_exit
+2023-11-23 20:37:29,019 DEBUG   HandlerThread:5778 [handler.py:handle_request():144] handle_request: server_info
+2023-11-23 20:37:29,019 DEBUG   SenderThread:5778 [sender.py:send_request():361] send_request: poll_exit
+2023-11-23 20:37:29,020 DEBUG   SenderThread:5778 [sender.py:send_request():361] send_request: server_info
+2023-11-23 20:37:29,022 DEBUG   HandlerThread:5778 [handler.py:handle_request():144] handle_request: get_summary
+2023-11-23 20:37:29,022 DEBUG   HandlerThread:5778 [handler.py:handle_request():144] handle_request: sampled_history
+2023-11-23 20:37:29,157 DEBUG   HandlerThread:5778 [handler.py:handle_request():144] handle_request: shutdown
+2023-11-23 20:37:29,157 INFO    HandlerThread:5778 [handler.py:finish():841] shutting down handler
+2023-11-23 20:37:30,019 INFO    WriterThread:5778 [datastore.py:close():299] close: /home/indigon/projects/Project-Build-an-ML-Pipeline-Starter/src/eda/wandb/run-20231123_203355-20pch2nl/run-20pch2nl.wandb
+2023-11-23 20:37:30,156 INFO    SenderThread:5778 [sender.py:finish():1491] shutting down sender
+2023-11-23 20:37:30,156 INFO    SenderThread:5778 [file_pusher.py:finish():160] shutting down file pusher
+2023-11-23 20:37:30,156 INFO    SenderThread:5778 [file_pusher.py:join():165] waiting for file pusher

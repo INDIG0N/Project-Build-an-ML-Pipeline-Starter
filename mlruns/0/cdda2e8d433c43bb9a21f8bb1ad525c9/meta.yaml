@@ -1,0 +1,15 @@
+artifact_uri: file:///home/indigon/projects/Project-Build-an-ML-Pipeline-Starter/mlruns/0/cdda2e8d433c43bb9a21f8bb1ad525c9/artifacts
+end_time: 1700796903051
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: cdda2e8d433c43bb9a21f8bb1ad525c9
+run_name: beautiful-panda-684
+run_uuid: cdda2e8d433c43bb9a21f8bb1ad525c9
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1700796899355
+status: 4
+tags: []
+user_id: indigon

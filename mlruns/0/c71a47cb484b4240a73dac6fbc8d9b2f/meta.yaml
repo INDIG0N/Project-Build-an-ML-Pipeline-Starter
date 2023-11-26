@@ -1,0 +1,15 @@
+artifact_uri: file:///home/indigon/projects/Project-Build-an-ML-Pipeline-Starter/mlruns/0/c71a47cb484b4240a73dac6fbc8d9b2f/artifacts
+end_time: 1700793683100
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: c71a47cb484b4240a73dac6fbc8d9b2f
+run_name: worried-bug-526
+run_uuid: c71a47cb484b4240a73dac6fbc8d9b2f
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1700793677514
+status: 4
+tags: []
+user_id: indigon

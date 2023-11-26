@@ -1,0 +1,15 @@
+artifact_uri: file:///home/indigon/projects/Project-Build-an-ML-Pipeline-Starter/mlruns/0/72ba25b6ea9a4a5aa624038ee956f888/artifacts
+end_time: 1700797512968
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: 72ba25b6ea9a4a5aa624038ee956f888
+run_name: nervous-hound-812
+run_uuid: 72ba25b6ea9a4a5aa624038ee956f888
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1700797499221
+status: 3
+tags: []
+user_id: indigon

@@ -1,0 +1,15 @@
+artifact_uri: file:///home/indigon/projects/Project-Build-an-ML-Pipeline-Starter/mlruns/0/c7dcf7f65108421d9d99ba880b01bd5e/artifacts
+end_time: 1700963349215
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: c7dcf7f65108421d9d99ba880b01bd5e
+run_name: efficient-kite-964
+run_uuid: c7dcf7f65108421d9d99ba880b01bd5e
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1700963160141
+status: 3
+tags: []
+user_id: indigon

@@ -1,0 +1,15 @@
+artifact_uri: file:///home/indigon/projects/Project-Build-an-ML-Pipeline-Starter/mlruns/0/d232266a710e4e999732f8a49cb4da65/artifacts
+end_time: 1700797512780
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: d232266a710e4e999732f8a49cb4da65
+run_name: bald-elk-980
+run_uuid: d232266a710e4e999732f8a49cb4da65
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1700797501837
+status: 3
+tags: []
+user_id: indigon

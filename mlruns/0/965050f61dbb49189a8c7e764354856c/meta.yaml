@@ -1,0 +1,15 @@
+artifact_uri: file:///home/indigon/projects/Project-Build-an-ML-Pipeline-Starter/mlruns/0/965050f61dbb49189a8c7e764354856c/artifacts
+end_time: 1700793740582
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: 965050f61dbb49189a8c7e764354856c
+run_name: flawless-dolphin-361
+run_uuid: 965050f61dbb49189a8c7e764354856c
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1700793724236
+status: 3
+tags: []
+user_id: indigon

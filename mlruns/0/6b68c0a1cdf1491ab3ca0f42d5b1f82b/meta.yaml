@@ -1,0 +1,15 @@
+artifact_uri: file:///home/indigon/projects/Project-Build-an-ML-Pipeline-Starter/mlruns/0/6b68c0a1cdf1491ab3ca0f42d5b1f82b/artifacts
+end_time: 1700962762408
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: 6b68c0a1cdf1491ab3ca0f42d5b1f82b
+run_name: illustrious-croc-78
+run_uuid: 6b68c0a1cdf1491ab3ca0f42d5b1f82b
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1700962760684
+status: 4
+tags: []
+user_id: indigon

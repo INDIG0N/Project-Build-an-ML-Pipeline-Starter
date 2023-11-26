@@ -1,0 +1,15 @@
+artifact_uri: file:///home/indigon/projects/Project-Build-an-ML-Pipeline-Starter/mlruns/0/1e64f5b360954f2bab32bfe02c32efa2/artifacts
+end_time: 1700963060907
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: 1e64f5b360954f2bab32bfe02c32efa2
+run_name: dashing-colt-683
+run_uuid: 1e64f5b360954f2bab32bfe02c32efa2
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1700963012328
+status: 3
+tags: []
+user_id: indigon

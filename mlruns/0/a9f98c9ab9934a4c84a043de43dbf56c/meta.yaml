@@ -1,0 +1,15 @@
+artifact_uri: file:///home/indigon/projects/Project-Build-an-ML-Pipeline-Starter/mlruns/0/a9f98c9ab9934a4c84a043de43dbf56c/artifacts
+end_time: 1700793442853
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: a9f98c9ab9934a4c84a043de43dbf56c
+run_name: bold-pug-564
+run_uuid: a9f98c9ab9934a4c84a043de43dbf56c
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1700793361041
+status: 4
+tags: []
+user_id: indigon

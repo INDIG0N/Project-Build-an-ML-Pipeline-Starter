@@ -1,0 +1,15 @@
+artifact_uri: file:///home/indigon/projects/Project-Build-an-ML-Pipeline-Starter/mlruns/0/193561067a924596b2dc856c81fa29ba/artifacts
+end_time: 1700796866406
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: 193561067a924596b2dc856c81fa29ba
+run_name: honorable-squid-150
+run_uuid: 193561067a924596b2dc856c81fa29ba
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1700796864734
+status: 4
+tags: []
+user_id: indigon

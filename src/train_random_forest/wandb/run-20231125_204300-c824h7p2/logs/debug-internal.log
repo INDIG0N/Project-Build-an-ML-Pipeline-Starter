@@ -1,0 +1,214 @@
+2023-11-25 20:43:00,562 INFO    StreamThr :10123 [internal.py:wandb_internal():87] W&B internal server running at pid: 10123, started at: 2023-11-25 20:43:00.561657
+2023-11-25 20:43:00,564 DEBUG   HandlerThread:10123 [handler.py:handle_request():144] handle_request: status
+2023-11-25 20:43:00,566 INFO    WriterThread:10123 [datastore.py:open_for_write():85] open: /home/indigon/projects/Project-Build-an-ML-Pipeline-Starter/src/train_random_forest/wandb/run-20231125_204300-c824h7p2/run-c824h7p2.wandb
+2023-11-25 20:43:00,567 DEBUG   SenderThread:10123 [sender.py:send():334] send: header
+2023-11-25 20:43:00,576 DEBUG   SenderThread:10123 [sender.py:send():334] send: run
+2023-11-25 20:43:00,986 INFO    SenderThread:10123 [dir_watcher.py:__init__():216] watching files in: /home/indigon/projects/Project-Build-an-ML-Pipeline-Starter/src/train_random_forest/wandb/run-20231125_204300-c824h7p2/files
+2023-11-25 20:43:00,986 INFO    SenderThread:10123 [sender.py:_start_run_threads():1065] run started: c824h7p2 with start time 1700962980.560636
+2023-11-25 20:43:00,986 DEBUG   SenderThread:10123 [sender.py:send_request():361] send_request: summary_record
+2023-11-25 20:43:00,986 INFO    SenderThread:10123 [sender.py:_save_file():1319] saving file wandb-summary.json with policy end
+2023-11-25 20:43:00,987 DEBUG   HandlerThread:10123 [handler.py:handle_request():144] handle_request: check_version
+2023-11-25 20:43:00,987 DEBUG   SenderThread:10123 [sender.py:send_request():361] send_request: check_version
+2023-11-25 20:43:01,160 DEBUG   HandlerThread:10123 [handler.py:handle_request():144] handle_request: run_start
+2023-11-25 20:43:01,162 DEBUG   HandlerThread:10123 [system_info.py:__init__():31] System info init
+2023-11-25 20:43:01,162 DEBUG   HandlerThread:10123 [system_info.py:__init__():46] System info init done
+2023-11-25 20:43:01,162 INFO    HandlerThread:10123 [system_monitor.py:start():151] Starting system monitor
+2023-11-25 20:43:01,162 INFO    SystemMonitor:10123 [system_monitor.py:_start():116] Starting system asset monitoring threads
+2023-11-25 20:43:01,162 INFO    HandlerThread:10123 [system_monitor.py:probe():172] Collecting system info
+2023-11-25 20:43:01,164 INFO    SystemMonitor:10123 [interfaces.py:start():168] Started cpu
+2023-11-25 20:43:01,165 INFO    SystemMonitor:10123 [interfaces.py:start():168] Started disk
+2023-11-25 20:43:01,166 INFO    SystemMonitor:10123 [interfaces.py:start():168] Started memory
+2023-11-25 20:43:01,167 INFO    SystemMonitor:10123 [interfaces.py:start():168] Started network
+2023-11-25 20:43:01,172 DEBUG   HandlerThread:10123 [system_info.py:probe():195] Probing system
+2023-11-25 20:43:01,196 DEBUG   HandlerThread:10123 [system_info.py:_probe_git():180] Probing git
+2023-11-25 20:43:01,208 DEBUG   HandlerThread:10123 [system_info.py:_probe_git():188] Probing git done
+2023-11-25 20:43:01,208 DEBUG   HandlerThread:10123 [system_info.py:probe():241] Probing system done
+2023-11-25 20:43:01,208 DEBUG   HandlerThread:10123 [system_monitor.py:probe():181] {'os': 'Linux-5.15.133.1-microsoft-standard-WSL2-x86_64-with-glibc2.35', 'python': '3.9.18', 'heartbeatAt': '2023-11-26T01:43:01.172185', 'startedAt': '2023-11-26T01:43:00.552281', 'docker': None, 'cuda': None, 'args': ('--trainval_artifact', 'trainval_data.csv:latest', '--val_size', '0.2', '--random_seed', '42', '--stratify_by', 'neighbourhood_group', '--rf_config', '/home/indigon/projects/Project-Build-an-ML-Pipeline-Starter/multirun/2023-11-25/20-39-56/0/rf_config.json', '--max_tfidf_features', '5', '--output_artifact', 'random_forest_export'), 'state': 'running', 'program': '/home/indigon/projects/Project-Build-an-ML-Pipeline-Starter/src/train_random_forest/run.py', 'codePath': 'src/train_random_forest/run.py', 'git': {'remote': 'https://github.com/INDIG0N/Project-Build-an-ML-Pipeline-Starter.git', 'commit': 'de35e093556231566852c2be0d98990e7ef7a163'}, 'email': 'hicksjordan1999@gmail.com', 'root': '/home/indigon/projects/Project-Build-an-ML-Pipeline-Starter', 'host': 'DESKTOP-N061D2H', 'username': 'indigon', 'executable': '/home/indigon/miniconda3/envs/mlflow-d6c04384fb9356865b6d231fc3cbd1b1b9b4863e/bin/python', 'cpu_count': 8, 'cpu_count_logical': 16, 'cpu_freq': {'current': 3393.679000000001, 'min': 0.0, 'max': 0.0}, 'cpu_freq_per_core': [{'current': 3393.679, 'min': 0.0, 'max': 0.0}, {'current': 3393.679, 'min': 0.0, 'max': 0.0}, {'current': 3393.679, 'min': 0.0, 'max': 0.0}, {'current': 3393.679, 'min': 0.0, 'max': 0.0}, {'current': 3393.679, 'min': 0.0, 'max': 0.0}, {'current': 3393.679, 'min': 0.0, 'max': 0.0}, {'current': 3393.679, 'min': 0.0, 'max': 0.0}, {'current': 3393.679, 'min': 0.0, 'max': 0.0}, {'current': 3393.679, 'min': 0.0, 'max': 0.0}, {'current': 3393.679, 'min': 0.0, 'max': 0.0}, {'current': 3393.679, 'min': 0.0, 'max': 0.0}, {'current': 3393.679, 'min': 0.0, 'max': 0.0}, {'current': 3393.679, 'min': 0.0, 'max': 0.0}, {'current': 3393.679, 'min': 0.0, 'max': 0.0}, {'current': 3393.679, 'min': 0.0, 'max': 0.0}, {'current': 3393.679, 'min': 0.0, 'max': 0.0}], 'disk': {'total': 1006.853931427002, 'used': 14.846214294433594}, 'memory': {'total': 7.722969055175781}}
+2023-11-25 20:43:01,208 INFO    HandlerThread:10123 [system_monitor.py:probe():182] Finished collecting system info
+2023-11-25 20:43:01,208 INFO    HandlerThread:10123 [system_monitor.py:probe():185] Publishing system info
+2023-11-25 20:43:01,208 DEBUG   HandlerThread:10123 [system_info.py:_save_pip():51] Saving list of pip packages installed into the current environment
+2023-11-25 20:43:01,208 DEBUG   HandlerThread:10123 [system_info.py:_save_pip():67] Saving pip packages done
+2023-11-25 20:43:01,208 DEBUG   HandlerThread:10123 [system_info.py:_save_conda():74] Saving list of conda packages installed into the current environment
+2023-11-25 20:43:01,988 INFO    Thread-13 :10123 [dir_watcher.py:_on_file_created():275] file/dir created: /home/indigon/projects/Project-Build-an-ML-Pipeline-Starter/src/train_random_forest/wandb/run-20231125_204300-c824h7p2/files/conda-environment.yaml
+2023-11-25 20:43:01,989 INFO    Thread-13 :10123 [dir_watcher.py:_on_file_created():275] file/dir created: /home/indigon/projects/Project-Build-an-ML-Pipeline-Starter/src/train_random_forest/wandb/run-20231125_204300-c824h7p2/files/requirements.txt
+2023-11-25 20:43:01,989 INFO    Thread-13 :10123 [dir_watcher.py:_on_file_created():275] file/dir created: /home/indigon/projects/Project-Build-an-ML-Pipeline-Starter/src/train_random_forest/wandb/run-20231125_204300-c824h7p2/files/wandb-summary.json
+2023-11-25 20:43:03,407 DEBUG   HandlerThread:10123 [system_info.py:_save_conda():86] Saving conda packages done
+2023-11-25 20:43:03,408 INFO    HandlerThread:10123 [system_monitor.py:probe():187] Finished publishing system info
+2023-11-25 20:43:03,411 DEBUG   SenderThread:10123 [sender.py:send():334] send: files
+2023-11-25 20:43:03,411 INFO    SenderThread:10123 [sender.py:_save_file():1319] saving file wandb-metadata.json with policy now
+2023-11-25 20:43:03,416 DEBUG   HandlerThread:10123 [handler.py:handle_request():144] handle_request: stop_status
+2023-11-25 20:43:03,417 DEBUG   SenderThread:10123 [sender.py:send_request():361] send_request: stop_status
+2023-11-25 20:43:03,598 DEBUG   SenderThread:10123 [sender.py:send():334] send: telemetry
+2023-11-25 20:43:03,599 DEBUG   SenderThread:10123 [sender.py:send():334] send: config
+2023-11-25 20:43:03,600 DEBUG   SenderThread:10123 [sender.py:send():334] send: config
+2023-11-25 20:43:03,929 DEBUG   SenderThread:10123 [sender.py:send():334] send: use_artifact
+2023-11-25 20:43:03,977 INFO    Thread-16 :10123 [upload_job.py:push():143] Uploaded file /tmp/tmptzhonhrpwandb/tn98bys2-wandb-metadata.json
+2023-11-25 20:43:03,989 INFO    Thread-13 :10123 [dir_watcher.py:_on_file_modified():292] file/dir modified: /home/indigon/projects/Project-Build-an-ML-Pipeline-Starter/src/train_random_forest/wandb/run-20231125_204300-c824h7p2/files/conda-environment.yaml
+2023-11-25 20:43:03,989 INFO    Thread-13 :10123 [dir_watcher.py:_on_file_created():275] file/dir created: /home/indigon/projects/Project-Build-an-ML-Pipeline-Starter/src/train_random_forest/wandb/run-20231125_204300-c824h7p2/files/wandb-metadata.json
+2023-11-25 20:43:04,989 INFO    Thread-13 :10123 [dir_watcher.py:_on_file_created():275] file/dir created: /home/indigon/projects/Project-Build-an-ML-Pipeline-Starter/src/train_random_forest/wandb/run-20231125_204300-c824h7p2/files/output.log
+2023-11-25 20:43:06,439 DEBUG   HandlerThread:10123 [handler.py:handle_request():144] handle_request: status_report
+2023-11-25 20:43:06,990 INFO    Thread-13 :10123 [dir_watcher.py:_on_file_modified():292] file/dir modified: /home/indigon/projects/Project-Build-an-ML-Pipeline-Starter/src/train_random_forest/wandb/run-20231125_204300-c824h7p2/files/output.log
+2023-11-25 20:43:11,443 DEBUG   HandlerThread:10123 [handler.py:handle_request():144] handle_request: status_report
+2023-11-25 20:43:16,448 DEBUG   HandlerThread:10123 [handler.py:handle_request():144] handle_request: status_report
+2023-11-25 20:43:18,416 DEBUG   HandlerThread:10123 [handler.py:handle_request():144] handle_request: keepalive
+2023-11-25 20:43:20,999 INFO    Thread-13 :10123 [dir_watcher.py:_on_file_modified():292] file/dir modified: /home/indigon/projects/Project-Build-an-ML-Pipeline-Starter/src/train_random_forest/wandb/run-20231125_204300-c824h7p2/files/output.log
+2023-11-25 20:43:21,173 DEBUG   HandlerThread:10123 [handler.py:handle_request():144] handle_request: log_artifact
+2023-11-25 20:43:21,174 DEBUG   SenderThread:10123 [sender.py:send_request():361] send_request: log_artifact
+2023-11-25 20:43:21,965 DEBUG   HandlerThread:10123 [handler.py:handle_request():144] handle_request: partial_history
+2023-11-25 20:43:22,000 INFO    Thread-13 :10123 [dir_watcher.py:_on_file_created():275] file/dir created: /home/indigon/projects/Project-Build-an-ML-Pipeline-Starter/src/train_random_forest/wandb/run-20231125_204300-c824h7p2/files/media/images/feature_importance_0_0c5964a443c246c7a8ae.png
+2023-11-25 20:43:22,000 INFO    Thread-13 :10123 [dir_watcher.py:_on_file_created():275] file/dir created: /home/indigon/projects/Project-Build-an-ML-Pipeline-Starter/src/train_random_forest/wandb/run-20231125_204300-c824h7p2/files/media/images
+2023-11-25 20:43:22,000 INFO    Thread-13 :10123 [dir_watcher.py:_on_file_created():275] file/dir created: /home/indigon/projects/Project-Build-an-ML-Pipeline-Starter/src/train_random_forest/wandb/run-20231125_204300-c824h7p2/files/media
+2023-11-25 20:43:22,458 INFO    Thread-23 :10123 [upload_job.py:push():101] Uploaded file /home/indigon/.local/share/wandb/artifacts/staging/tmpjokku4mj
+2023-11-25 20:43:22,463 INFO    Thread-20 :10123 [upload_job.py:push():101] Uploaded file /home/indigon/.local/share/wandb/artifacts/staging/tmpop19wuxz
+2023-11-25 20:43:22,466 INFO    Thread-19 :10123 [upload_job.py:push():101] Uploaded file /home/indigon/.local/share/wandb/artifacts/staging/tmpyvjovbsg
+2023-11-25 20:43:22,466 INFO    Thread-22 :10123 [upload_job.py:push():101] Uploaded file /home/indigon/.local/share/wandb/artifacts/staging/tmpg4migbmt
+2023-11-25 20:43:22,467 INFO    Thread-18 :10123 [upload_job.py:push():101] Uploaded file /home/indigon/.local/share/wandb/artifacts/staging/tmpv21usijc
+2023-11-25 20:43:22,578 INFO    Thread-24 :10123 [upload_job.py:push():143] Uploaded file /tmp/tmptzhonhrpwandb/ca3zxgeb-media/images/feature_importance_0_0c5964a443c246c7a8ae.png
+2023-11-25 20:43:22,968 DEBUG   HandlerThread:10123 [handler.py:handle_request():144] handle_request: poll_exit
+2023-11-25 20:43:23,000 INFO    Thread-13 :10123 [dir_watcher.py:_on_file_modified():292] file/dir modified: /home/indigon/projects/Project-Build-an-ML-Pipeline-Starter/src/train_random_forest/wandb/run-20231125_204300-c824h7p2/files/output.log
+2023-11-25 20:43:24,733 INFO    Thread-21 :10123 [upload_job.py:push():101] Uploaded file /home/indigon/.local/share/wandb/artifacts/staging/tmpd83n49nh
+2023-11-25 20:43:25,578 INFO    SenderThread:10123 [sender.py:send_request_log_artifact():1379] logged artifact random_forest_export - {'id': 'QXJ0aWZhY3Q6NjQ5MjExODgy', 'digest': '920106f3232aa42485610b41c8e43dbf', 'state': 'PENDING', 'aliases': [], 'artifactSequence': {'id': 'QXJ0aWZhY3RDb2xsZWN0aW9uOjExODc3NzAxMg==', 'latestArtifact': None}, 'version': 'latest'}
+2023-11-25 20:43:25,578 DEBUG   SenderThread:10123 [sender.py:send_request():361] send_request: summary_record
+2023-11-25 20:43:25,578 DEBUG   HandlerThread:10123 [handler.py:handle_request():144] handle_request: status_report
+2023-11-25 20:43:25,581 INFO    SenderThread:10123 [sender.py:_save_file():1319] saving file wandb-summary.json with policy end
+2023-11-25 20:43:25,581 DEBUG   SenderThread:10123 [sender.py:send_request():361] send_request: summary_record
+2023-11-25 20:43:25,582 INFO    SenderThread:10123 [sender.py:_save_file():1319] saving file wandb-summary.json with policy end
+2023-11-25 20:43:25,582 DEBUG   SenderThread:10123 [sender.py:send():334] send: files
+2023-11-25 20:43:25,582 INFO    SenderThread:10123 [sender.py:_save_file():1319] saving file media/images/feature_importance_0_0c5964a443c246c7a8ae.png with policy now
+2023-11-25 20:43:25,582 DEBUG   SenderThread:10123 [sender.py:send():334] send: history
+2023-11-25 20:43:25,583 DEBUG   SenderThread:10123 [sender.py:send_request():361] send_request: summary_record
+2023-11-25 20:43:25,587 INFO    SenderThread:10123 [sender.py:_save_file():1319] saving file wandb-summary.json with policy end
+2023-11-25 20:43:25,587 DEBUG   SenderThread:10123 [sender.py:send():334] send: exit
+2023-11-25 20:43:25,587 INFO    SenderThread:10123 [sender.py:send_exit():557] handling exit code: 0
+2023-11-25 20:43:25,587 INFO    SenderThread:10123 [sender.py:send_exit():559] handling runtime: 20
+2023-11-25 20:43:25,590 INFO    SenderThread:10123 [sender.py:_save_file():1319] saving file wandb-summary.json with policy end
+2023-11-25 20:43:25,590 INFO    SenderThread:10123 [sender.py:send_exit():565] send defer
+2023-11-25 20:43:25,590 DEBUG   SenderThread:10123 [sender.py:send_request():361] send_request: poll_exit
+2023-11-25 20:43:25,591 DEBUG   HandlerThread:10123 [handler.py:handle_request():144] handle_request: defer
+2023-11-25 20:43:25,591 INFO    HandlerThread:10123 [handler.py:handle_request_defer():170] handle defer: 0
+2023-11-25 20:43:25,591 DEBUG   SenderThread:10123 [sender.py:send_request():361] send_request: defer
+2023-11-25 20:43:25,591 INFO    SenderThread:10123 [sender.py:send_request_defer():581] handle sender defer: 0
+2023-11-25 20:43:25,591 INFO    SenderThread:10123 [sender.py:transition_state():585] send defer: 1
+2023-11-25 20:43:25,592 DEBUG   HandlerThread:10123 [handler.py:handle_request():144] handle_request: defer
+2023-11-25 20:43:25,592 INFO    HandlerThread:10123 [handler.py:handle_request_defer():170] handle defer: 1
+2023-11-25 20:43:25,592 DEBUG   SenderThread:10123 [sender.py:send_request():361] send_request: defer
+2023-11-25 20:43:25,592 INFO    SenderThread:10123 [sender.py:send_request_defer():581] handle sender defer: 1
+2023-11-25 20:43:25,592 INFO    SenderThread:10123 [sender.py:transition_state():585] send defer: 2
+2023-11-25 20:43:25,593 DEBUG   HandlerThread:10123 [handler.py:handle_request():144] handle_request: defer
+2023-11-25 20:43:25,593 INFO    HandlerThread:10123 [handler.py:handle_request_defer():170] handle defer: 2
+2023-11-25 20:43:25,593 INFO    HandlerThread:10123 [system_monitor.py:finish():161] Stopping system monitor
+2023-11-25 20:43:25,594 DEBUG   SystemMonitor:10123 [system_monitor.py:_start():130] Starting system metrics aggregation loop
+2023-11-25 20:43:25,595 DEBUG   SystemMonitor:10123 [system_monitor.py:_start():137] Finished system metrics aggregation loop
+2023-11-25 20:43:25,595 DEBUG   SystemMonitor:10123 [system_monitor.py:_start():141] Publishing last batch of metrics
+2023-11-25 20:43:25,596 INFO    HandlerThread:10123 [interfaces.py:finish():175] Joined cpu
+2023-11-25 20:43:25,596 INFO    HandlerThread:10123 [interfaces.py:finish():175] Joined disk
+2023-11-25 20:43:25,596 INFO    HandlerThread:10123 [interfaces.py:finish():175] Joined memory
+2023-11-25 20:43:25,596 INFO    HandlerThread:10123 [interfaces.py:finish():175] Joined network
+2023-11-25 20:43:25,596 DEBUG   SenderThread:10123 [sender.py:send_request():361] send_request: defer
+2023-11-25 20:43:25,597 INFO    SenderThread:10123 [sender.py:send_request_defer():581] handle sender defer: 2
+2023-11-25 20:43:25,597 INFO    SenderThread:10123 [sender.py:transition_state():585] send defer: 3
+2023-11-25 20:43:25,597 DEBUG   SenderThread:10123 [sender.py:send():334] send: stats
+2023-11-25 20:43:25,597 DEBUG   HandlerThread:10123 [handler.py:handle_request():144] handle_request: defer
+2023-11-25 20:43:25,597 INFO    HandlerThread:10123 [handler.py:handle_request_defer():170] handle defer: 3
+2023-11-25 20:43:25,598 DEBUG   SenderThread:10123 [sender.py:send_request():361] send_request: defer
+2023-11-25 20:43:25,598 INFO    SenderThread:10123 [sender.py:send_request_defer():581] handle sender defer: 3
+2023-11-25 20:43:25,598 INFO    SenderThread:10123 [sender.py:transition_state():585] send defer: 4
+2023-11-25 20:43:25,598 DEBUG   HandlerThread:10123 [handler.py:handle_request():144] handle_request: defer
+2023-11-25 20:43:25,598 INFO    HandlerThread:10123 [handler.py:handle_request_defer():170] handle defer: 4
+2023-11-25 20:43:25,598 DEBUG   SenderThread:10123 [sender.py:send_request():361] send_request: defer
+2023-11-25 20:43:25,598 INFO    SenderThread:10123 [sender.py:send_request_defer():581] handle sender defer: 4
+2023-11-25 20:43:25,598 INFO    SenderThread:10123 [sender.py:transition_state():585] send defer: 5
+2023-11-25 20:43:25,598 DEBUG   HandlerThread:10123 [handler.py:handle_request():144] handle_request: defer
+2023-11-25 20:43:25,598 INFO    HandlerThread:10123 [handler.py:handle_request_defer():170] handle defer: 5
+2023-11-25 20:43:25,599 DEBUG   SenderThread:10123 [sender.py:send():334] send: summary
+2023-11-25 20:43:25,599 INFO    SenderThread:10123 [sender.py:_save_file():1319] saving file wandb-summary.json with policy end
+2023-11-25 20:43:25,599 DEBUG   SenderThread:10123 [sender.py:send_request():361] send_request: defer
+2023-11-25 20:43:25,599 INFO    SenderThread:10123 [sender.py:send_request_defer():581] handle sender defer: 5
+2023-11-25 20:43:25,599 INFO    SenderThread:10123 [sender.py:transition_state():585] send defer: 6
+2023-11-25 20:43:25,600 DEBUG   HandlerThread:10123 [handler.py:handle_request():144] handle_request: defer
+2023-11-25 20:43:25,600 INFO    HandlerThread:10123 [handler.py:handle_request_defer():170] handle defer: 6
+2023-11-25 20:43:25,600 DEBUG   SenderThread:10123 [sender.py:send_request():361] send_request: defer
+2023-11-25 20:43:25,600 INFO    SenderThread:10123 [sender.py:send_request_defer():581] handle sender defer: 6
+2023-11-25 20:43:25,604 DEBUG   HandlerThread:10123 [handler.py:handle_request():144] handle_request: status_report
+2023-11-25 20:43:25,778 INFO    SenderThread:10123 [sender.py:transition_state():585] send defer: 7
+2023-11-25 20:43:25,778 DEBUG   HandlerThread:10123 [handler.py:handle_request():144] handle_request: defer
+2023-11-25 20:43:25,778 INFO    HandlerThread:10123 [handler.py:handle_request_defer():170] handle defer: 7
+2023-11-25 20:43:25,779 DEBUG   SenderThread:10123 [sender.py:send_request():361] send_request: defer
+2023-11-25 20:43:25,779 INFO    SenderThread:10123 [sender.py:send_request_defer():581] handle sender defer: 7
+2023-11-25 20:43:26,001 INFO    Thread-13 :10123 [dir_watcher.py:_on_file_modified():292] file/dir modified: /home/indigon/projects/Project-Build-an-ML-Pipeline-Starter/src/train_random_forest/wandb/run-20231125_204300-c824h7p2/files/wandb-summary.json
+2023-11-25 20:43:26,002 INFO    Thread-13 :10123 [dir_watcher.py:_on_file_modified():292] file/dir modified: /home/indigon/projects/Project-Build-an-ML-Pipeline-Starter/src/train_random_forest/wandb/run-20231125_204300-c824h7p2/files/config.yaml
+2023-11-25 20:43:26,249 INFO    Thread-25 :10123 [upload_job.py:push():143] Uploaded file /tmp/tmptzhonhrpwandb/9v4ce98k-media/images/feature_importance_0_0c5964a443c246c7a8ae.png
+2023-11-25 20:43:26,454 INFO    SenderThread:10123 [sender.py:transition_state():585] send defer: 8
+2023-11-25 20:43:26,455 DEBUG   HandlerThread:10123 [handler.py:handle_request():144] handle_request: defer
+2023-11-25 20:43:26,455 INFO    HandlerThread:10123 [handler.py:handle_request_defer():170] handle defer: 8
+2023-11-25 20:43:26,455 DEBUG   SenderThread:10123 [sender.py:send_request():361] send_request: defer
+2023-11-25 20:43:26,455 INFO    SenderThread:10123 [sender.py:send_request_defer():581] handle sender defer: 8
+2023-11-25 20:43:26,468 INFO    SenderThread:10123 [sender.py:transition_state():585] send defer: 9
+2023-11-25 20:43:26,469 DEBUG   HandlerThread:10123 [handler.py:handle_request():144] handle_request: defer
+2023-11-25 20:43:26,469 INFO    HandlerThread:10123 [handler.py:handle_request_defer():170] handle defer: 9
+2023-11-25 20:43:26,469 DEBUG   SenderThread:10123 [sender.py:send():334] send: artifact
+2023-11-25 20:43:27,003 INFO    Thread-13 :10123 [dir_watcher.py:_on_file_modified():292] file/dir modified: /home/indigon/projects/Project-Build-an-ML-Pipeline-Starter/src/train_random_forest/wandb/run-20231125_204300-c824h7p2/files/output.log
+2023-11-25 20:43:27,489 INFO    Thread-27 :10123 [upload_job.py:push():101] Uploaded file /home/indigon/.local/share/wandb/artifacts/staging/tmps2wmwnz5
+2023-11-25 20:43:27,493 INFO    Thread-28 :10123 [upload_job.py:push():101] Uploaded file /home/indigon/.local/share/wandb/artifacts/staging/tmpgh_wedct
+2023-11-25 20:43:27,970 DEBUG   HandlerThread:10123 [handler.py:handle_request():144] handle_request: keepalive
+2023-11-25 20:43:28,879 INFO    SenderThread:10123 [sender.py:send_artifact():1415] sent artifact job-https___github.com_INDIG0N_Project-Build-an-ML-Pipeline-Starter.git_src_train_random_forest_run.py - {'id': 'QXJ0aWZhY3Q6NjQ5MjExOTE5', 'digest': '8a9b562349126ee9bcb43be4d08797d7', 'state': 'PENDING', 'aliases': [], 'artifactSequence': {'id': 'QXJ0aWZhY3RDb2xsZWN0aW9uOjExODc3NzAyMg==', 'latestArtifact': None}, 'version': 'latest'}
+2023-11-25 20:43:28,879 DEBUG   SenderThread:10123 [sender.py:send_request():361] send_request: defer
+2023-11-25 20:43:28,879 INFO    SenderThread:10123 [sender.py:send_request_defer():581] handle sender defer: 9
+2023-11-25 20:43:28,879 INFO    SenderThread:10123 [dir_watcher.py:finish():362] shutting down directory watcher
+2023-11-25 20:43:29,004 INFO    SenderThread:10123 [dir_watcher.py:finish():392] scan: /home/indigon/projects/Project-Build-an-ML-Pipeline-Starter/src/train_random_forest/wandb/run-20231125_204300-c824h7p2/files
+2023-11-25 20:43:29,005 INFO    SenderThread:10123 [dir_watcher.py:finish():406] scan save: /home/indigon/projects/Project-Build-an-ML-Pipeline-Starter/src/train_random_forest/wandb/run-20231125_204300-c824h7p2/files/config.yaml config.yaml
+2023-11-25 20:43:29,005 INFO    SenderThread:10123 [dir_watcher.py:finish():406] scan save: /home/indigon/projects/Project-Build-an-ML-Pipeline-Starter/src/train_random_forest/wandb/run-20231125_204300-c824h7p2/files/output.log output.log
+2023-11-25 20:43:29,005 INFO    SenderThread:10123 [dir_watcher.py:finish():406] scan save: /home/indigon/projects/Project-Build-an-ML-Pipeline-Starter/src/train_random_forest/wandb/run-20231125_204300-c824h7p2/files/wandb-metadata.json wandb-metadata.json
+2023-11-25 20:43:29,005 INFO    SenderThread:10123 [dir_watcher.py:finish():406] scan save: /home/indigon/projects/Project-Build-an-ML-Pipeline-Starter/src/train_random_forest/wandb/run-20231125_204300-c824h7p2/files/wandb-summary.json wandb-summary.json
+2023-11-25 20:43:29,009 INFO    SenderThread:10123 [dir_watcher.py:finish():406] scan save: /home/indigon/projects/Project-Build-an-ML-Pipeline-Starter/src/train_random_forest/wandb/run-20231125_204300-c824h7p2/files/conda-environment.yaml conda-environment.yaml
+2023-11-25 20:43:29,012 INFO    SenderThread:10123 [dir_watcher.py:finish():406] scan save: /home/indigon/projects/Project-Build-an-ML-Pipeline-Starter/src/train_random_forest/wandb/run-20231125_204300-c824h7p2/files/requirements.txt requirements.txt
+2023-11-25 20:43:29,023 INFO    SenderThread:10123 [dir_watcher.py:finish():406] scan save: /home/indigon/projects/Project-Build-an-ML-Pipeline-Starter/src/train_random_forest/wandb/run-20231125_204300-c824h7p2/files/media/images/feature_importance_0_0c5964a443c246c7a8ae.png media/images/feature_importance_0_0c5964a443c246c7a8ae.png
+2023-11-25 20:43:29,024 INFO    SenderThread:10123 [sender.py:transition_state():585] send defer: 10
+2023-11-25 20:43:29,024 DEBUG   HandlerThread:10123 [handler.py:handle_request():144] handle_request: defer
+2023-11-25 20:43:29,024 INFO    HandlerThread:10123 [handler.py:handle_request_defer():170] handle defer: 10
+2023-11-25 20:43:29,025 DEBUG   SenderThread:10123 [sender.py:send_request():361] send_request: defer
+2023-11-25 20:43:29,025 INFO    SenderThread:10123 [sender.py:send_request_defer():581] handle sender defer: 10
+2023-11-25 20:43:29,025 INFO    SenderThread:10123 [file_pusher.py:finish():160] shutting down file pusher
+2023-11-25 20:43:29,490 INFO    Thread-30 :10123 [upload_job.py:push():143] Uploaded file /home/indigon/projects/Project-Build-an-ML-Pipeline-Starter/src/train_random_forest/wandb/run-20231125_204300-c824h7p2/files/output.log
+2023-11-25 20:43:29,504 INFO    Thread-32 :10123 [upload_job.py:push():143] Uploaded file /home/indigon/projects/Project-Build-an-ML-Pipeline-Starter/src/train_random_forest/wandb/run-20231125_204300-c824h7p2/files/conda-environment.yaml
+2023-11-25 20:43:29,547 INFO    Thread-29 :10123 [upload_job.py:push():143] Uploaded file /home/indigon/projects/Project-Build-an-ML-Pipeline-Starter/src/train_random_forest/wandb/run-20231125_204300-c824h7p2/files/config.yaml
+2023-11-25 20:43:29,549 INFO    Thread-31 :10123 [upload_job.py:push():143] Uploaded file /home/indigon/projects/Project-Build-an-ML-Pipeline-Starter/src/train_random_forest/wandb/run-20231125_204300-c824h7p2/files/wandb-summary.json
+2023-11-25 20:43:29,580 INFO    Thread-33 :10123 [upload_job.py:push():143] Uploaded file /home/indigon/projects/Project-Build-an-ML-Pipeline-Starter/src/train_random_forest/wandb/run-20231125_204300-c824h7p2/files/requirements.txt
+2023-11-25 20:43:29,781 INFO    Thread-12 :10123 [sender.py:transition_state():585] send defer: 11
+2023-11-25 20:43:29,782 DEBUG   HandlerThread:10123 [handler.py:handle_request():144] handle_request: defer
+2023-11-25 20:43:29,782 INFO    HandlerThread:10123 [handler.py:handle_request_defer():170] handle defer: 11
+2023-11-25 20:43:29,782 DEBUG   SenderThread:10123 [sender.py:send_request():361] send_request: defer
+2023-11-25 20:43:29,782 INFO    SenderThread:10123 [sender.py:send_request_defer():581] handle sender defer: 11
+2023-11-25 20:43:29,782 INFO    SenderThread:10123 [file_pusher.py:join():165] waiting for file pusher
+2023-11-25 20:43:29,782 INFO    SenderThread:10123 [sender.py:transition_state():585] send defer: 12
+2023-11-25 20:43:29,782 DEBUG   HandlerThread:10123 [handler.py:handle_request():144] handle_request: defer
+2023-11-25 20:43:29,782 INFO    HandlerThread:10123 [handler.py:handle_request_defer():170] handle defer: 12
+2023-11-25 20:43:29,783 DEBUG   SenderThread:10123 [sender.py:send_request():361] send_request: defer
+2023-11-25 20:43:29,783 INFO    SenderThread:10123 [sender.py:send_request_defer():581] handle sender defer: 12
+2023-11-25 20:43:29,875 INFO    SenderThread:10123 [sender.py:transition_state():585] send defer: 13
+2023-11-25 20:43:29,875 DEBUG   HandlerThread:10123 [handler.py:handle_request():144] handle_request: defer
+2023-11-25 20:43:29,875 INFO    HandlerThread:10123 [handler.py:handle_request_defer():170] handle defer: 13
+2023-11-25 20:43:29,876 DEBUG   SenderThread:10123 [sender.py:send_request():361] send_request: defer
+2023-11-25 20:43:29,876 INFO    SenderThread:10123 [sender.py:send_request_defer():581] handle sender defer: 13
+2023-11-25 20:43:29,876 INFO    SenderThread:10123 [sender.py:transition_state():585] send defer: 14
+2023-11-25 20:43:29,876 DEBUG   HandlerThread:10123 [handler.py:handle_request():144] handle_request: defer
+2023-11-25 20:43:29,876 INFO    HandlerThread:10123 [handler.py:handle_request_defer():170] handle defer: 14
+2023-11-25 20:43:29,877 DEBUG   SenderThread:10123 [sender.py:send():334] send: final
+2023-11-25 20:43:29,877 DEBUG   SenderThread:10123 [sender.py:send():334] send: footer
+2023-11-25 20:43:29,877 DEBUG   SenderThread:10123 [sender.py:send_request():361] send_request: defer
+2023-11-25 20:43:29,877 INFO    SenderThread:10123 [sender.py:send_request_defer():581] handle sender defer: 14
+2023-11-25 20:43:29,878 DEBUG   HandlerThread:10123 [handler.py:handle_request():144] handle_request: poll_exit
+2023-11-25 20:43:29,878 DEBUG   HandlerThread:10123 [handler.py:handle_request():144] handle_request: server_info
+2023-11-25 20:43:29,878 DEBUG   SenderThread:10123 [sender.py:send_request():361] send_request: poll_exit
+2023-11-25 20:43:29,879 DEBUG   SenderThread:10123 [sender.py:send_request():361] send_request: server_info
+2023-11-25 20:43:29,881 DEBUG   HandlerThread:10123 [handler.py:handle_request():144] handle_request: get_summary
+2023-11-25 20:43:29,882 DEBUG   HandlerThread:10123 [handler.py:handle_request():144] handle_request: sampled_history
+2023-11-25 20:43:30,020 INFO    MainThread:10123 [wandb_run.py:_footer_history_summary_info():3427] rendering history
+2023-11-25 20:43:30,020 INFO    MainThread:10123 [wandb_run.py:_footer_history_summary_info():3459] rendering summary
+2023-11-25 20:43:30,021 INFO    MainThread:10123 [wandb_run.py:_footer_sync_info():3383] logging synced files
+2023-11-25 20:43:30,021 DEBUG   HandlerThread:10123 [handler.py:handle_request():144] handle_request: shutdown
+2023-11-25 20:43:30,021 INFO    HandlerThread:10123 [handler.py:finish():841] shutting down handler
+2023-11-25 20:43:30,879 INFO    WriterThread:10123 [datastore.py:close():299] close: /home/indigon/projects/Project-Build-an-ML-Pipeline-Starter/src/train_random_forest/wandb/run-20231125_204300-c824h7p2/run-c824h7p2.wandb
+2023-11-25 20:43:31,020 INFO    SenderThread:10123 [sender.py:finish():1491] shutting down sender
+2023-11-25 20:43:31,021 INFO    SenderThread:10123 [file_pusher.py:finish():160] shutting down file pusher
+2023-11-25 20:43:31,021 INFO    SenderThread:10123 [file_pusher.py:join():165] waiting for file pusher

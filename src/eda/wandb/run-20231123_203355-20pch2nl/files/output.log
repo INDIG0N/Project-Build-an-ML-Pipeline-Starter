@@ -1,0 +1,6 @@
+Error in callback <bound method _WandbInit._pause_backend of <wandb.sdk.wandb_init._WandbInit object at 0x7f0b0c68c790>> (for post_run_cell), with arguments args (<ExecutionResult object at 7f0b0c68c0a0, execution_count=2 error_before_exec=None error_in_exec=None info=<ExecutionInfo object at 7f0b0c68c400, raw_cell="import wandb
+import pandas as pd
+# Note that we us.." store_history=True silent=False shell_futures=True cell_id=f5da1120-205e-41cd-8f72-ddae19f7819e> result=None>,),kwargs {}:
+Error in callback <bound method _WandbInit._resume_backend of <wandb.sdk.wandb_init._WandbInit object at 0x7f0b0c68c790>> (for pre_run_cell), with arguments args (<ExecutionInfo object at 7f0ad6071d90, raw_cell="import wandb
+import pandas as pd
+# Note that we us.." store_history=True silent=False shell_futures=True cell_id=f5da1120-205e-41cd-8f72-ddae19f7819e>,),kwargs {}:

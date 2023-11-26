@@ -1,0 +1,15 @@
+artifact_uri: file:///home/indigon/projects/Project-Build-an-ML-Pipeline-Starter/mlruns/0/9a83a0ebb7a04fd081cdff4ddf628fa0/artifacts
+end_time: 1700797093834
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: 9a83a0ebb7a04fd081cdff4ddf628fa0
+run_name: learned-steed-527
+run_uuid: 9a83a0ebb7a04fd081cdff4ddf628fa0
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1700797036137
+status: 4
+tags: []
+user_id: indigon
