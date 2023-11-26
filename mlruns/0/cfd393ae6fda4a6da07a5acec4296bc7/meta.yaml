@@ -1,0 +1,15 @@
+artifact_uri: file:///home/indigon/projects/Project-Build-an-ML-Pipeline-Starter/mlruns/0/cfd393ae6fda4a6da07a5acec4296bc7/artifacts
+end_time: 1700974924783
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: cfd393ae6fda4a6da07a5acec4296bc7
+run_name: adorable-wasp-425
+run_uuid: cfd393ae6fda4a6da07a5acec4296bc7
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1700974774016
+status: 3
+tags: []
+user_id: indigon
